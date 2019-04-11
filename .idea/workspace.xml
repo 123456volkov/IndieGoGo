@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a9513e1-224c-484e-b6bd-060ecdc60d01" name="Default" comment="Change ShowMore">
+    <list default="true" id="6a9513e1-224c-484e-b6bd-060ecdc60d01" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CheckingShowMoreButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CheckingShowMoreButtonTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/CheckingShowMoreButtonTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="448">
-              <caret line="44" column="15" lean-forward="true" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+              <caret line="44" column="14" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -262,7 +261,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554987193288</updated>
       <workItem from="1554987203404" duration="3259000" />
-      <workItem from="1554990710814" duration="568000" />
+      <workItem from="1554990710814" duration="661000" />
     </task>
     <task id="LOCAL-00001" summary="Change ShowMore">
       <created>1554988736254</created>
@@ -278,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554989054345</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Just Add some text.....">
+      <created>1554991319096</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554991319096</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -302,7 +308,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3827000" />
+    <option name="totallyTimeSpent" value="3920000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -315,7 +321,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1448" y="-58" width="1456" height="886" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.328877" />
@@ -325,12 +330,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.25668448" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.25668448" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.328877" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.328877" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23997134" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23997134" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -392,7 +397,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change ShowMore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change ShowMore" />
+    <MESSAGE value="Just Add some text....." />
+    <option name="LAST_COMMIT_MESSAGE" value="Just Add some text....." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -476,7 +482,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/CheckingShowMoreButtonTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
-          <caret line="44" column="15" lean-forward="true" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+          <caret line="44" column="14" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
         </state>
       </provider>
     </entry>
