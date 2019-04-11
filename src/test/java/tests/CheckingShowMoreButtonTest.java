@@ -23,18 +23,20 @@ public class CheckingShowMoreButtonTest extends BaseTest {
         ExplorePageLogic explorePageLogic = mainPageLogic.findInformation(informationTwo);
 
 
-        List<WebElement> listProjects = explorePageLogic.get().getCard().findElements(By.xpath(("//div[contains(@class, 'discoverableCard-title')]")));
-
+        List<WebElement> listProjects;
+        List<WebElement> bufListProjects;
 
         while(explorePageLogic.get().getShowMoreResults().isDisplayed() && !explorePageLogic.get().getViewAllTrinding().isDisplayed()) {
+
+            bufListProjects = explorePageLogic.get().getCard().findElements(By.xpath(("//div[contains(@class, 'discoverableCard-title')]")));
 
             explorePageLogic.get( ).getShowMoreResults( ).click();
 
             new WebDriverWait(DriverManager.currentDriver(), 10)
-                    .until(ExpectedConditions.visibilityOfAllElements(listProjects));
+                    .until(ExpectedConditions.visibilityOfAllElements(bufListProjects));
 
-            List<WebElement> bufListProjects = listProjects;
-            listProjects = explorePageLogic.get( ).getCard( ).findElements(By.xpath((".//div[contains(@class, 'discoverableCard-title')]")));
+
+            listProjects = explorePageLogic.get( ).getCard( ).findElements(By.xpath(("//div[contains(@class, 'discoverableCard-title')]")));
 
             Assert.assertTrue(bufListProjects.size( ) < listProjects.size( ));
         }

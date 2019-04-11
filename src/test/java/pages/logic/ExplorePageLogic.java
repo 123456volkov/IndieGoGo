@@ -31,8 +31,8 @@ public class ExplorePageLogic {
             projects[i] = listProjects.get(i);
 
         int indexOfProject = getIndex(projects, nameOfProject);
-        //Assert.assertTrue(indexOfProject >= 0, "Не найдено проектов с таким именем");
-        Assert.assertNotEquals(indexOfProject, 0);
+        Assert.assertTrue(indexOfProject >= 0, "Не найдено проектов с таким именем");
+        //Assert.assertNotEquals(indexOfProject, 0);
 
         projects[indexOfProject].click();
 
